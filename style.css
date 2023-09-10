@@ -1,0 +1,256 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#head{
+    background-color: white;
+    height: max-content;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    position: relative;
+    color: blue;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+}
+#slackDisplayImage{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 30px;
+    border: 6px solid blue;
+}
+.tail{
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+}
+#slackUserName{
+    font-size: xx-large;
+    padding: 20px 0px 0px 0px;
+    font-weight: bold;
+}
+#myTrack{
+    font-weight: bold;
+    font-size: x-large;
+}
+a img{
+    width: 50px;
+    padding: 0px 10px ;
+}
+#currentUTCTime{
+    font-size: x-large;
+}
+#currentDayOfTheWeek{
+    font-size: x-large;
+}
+
+#githubURL{
+    background-color: white;
+    width: max-content;
+    color: blue;
+    padding: 10px;
+    border-radius: 25px;
+}
+@media screen and (max-width: 370px){
+        #slackDisplayImage{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-top: 20px;
+            border: 2px solid blue;
+        }
+        .tail{
+            justify-content: center;
+            text-align: center;
+            margin-top: 30px;
+        }
+        #slackUserName{
+            font-size: 29px;
+            font-weight: bold;
+        }
+        #myTrack{
+            font-weight: bold;
+            font-size: 27px;
+        }
+        a img{
+            width: 30px;
+            padding: 0px 8px ;
+        }
+        #currentDayOfTheWeek{
+            font-size: large;
+        }
+        #currentUTCTime{
+            font-size: large;
+        }
+        #githubURL{
+            width: max-content;
+            padding: 10px;
+            font-size: 26px;
+            border-radius: 25px;
+        }   
+}
+@media screen and (max-width: 360px){
+    #slackDisplayImage{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-top: 20px;
+        border: 2px solid blue;
+    }
+    .tail{
+        justify-content: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+    #slackUserName{
+        font-size: 29px;
+        font-weight: bold;
+    }
+    #myTrack{
+        font-weight: bold;
+        font-size: 26px;
+    }
+    a img{
+        width: 30px;
+        padding: 0px 8px ;
+    }
+    #currentUTCTime{
+        font-size: large;
+    }
+    #currentDayOfTheWeek{
+        font-size: large;
+    }
+    #githubURL{
+        width: max-content;
+        padding: 10px;
+        font-size: 25px;
+        border-radius: 25px;
+    }
+}
+@media screen and (max-width: 350px){
+    #currentDayOfTheWeek{
+        font-size: large;
+    }
+    #slackDisplayImage{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-top: 20px;
+        border: 2px solid blue;
+    }
+    .tail{
+        justify-content: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+    #slackUserName{
+        font-size: 27px;
+        font-weight: bold;
+    }
+    #myTrack{
+        font-weight: bold;
+        font-size: 24px;
+    }
+    a img{
+        width: 30px;
+        padding: 0px 8px ;
+    }
+    #currentUTCTime{
+        font-size: large;
+    }
+    #githubURL{
+        width: max-content;
+        padding: 10px;
+        font-size: 25px;
+        border-radius: 25px;
+    } 
+    #currentDayOfTheWeek{
+        font-size: large;
+    }
+}
+@media screen and (max-width: 340px){
+    #currentDayOfTheWeek{
+        font-size: large;
+    }
+    #slackDisplayImage{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-top: 20px;
+        border: 2px solid blue;
+    }
+    .tail{
+        justify-content: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+    #slackUserName{
+        font-size: 27px;
+        font-weight: bold;
+    }
+    #myTrack{
+        font-weight: bold;
+        font-size: 24px;
+    }
+    a img{
+        width: 30px;
+        padding: 0px 8px ;
+    }
+    #currentUTCTime{
+        font-size: large;
+    }
+    #githubURL{
+        width: max-content;
+        padding: 10px;
+        font-size: 25px;
+        border-radius: 25px;
+    }        
+}
+
+@media screen and (max-width: 330px){
+    #currentDayOfTheWeek{
+        font-size: large;
+    }
+    #slackDisplayImage{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-top: 20px;
+        border: 2px solid blue;
+    }
+    .tail{
+        justify-content: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+    #slackUserName{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    #myTrack{
+        font-weight: bold;
+        font-size: 21px;
+    }
+    a img{
+        width: 30px;
+        padding: 0px 8px ;
+    }
+    #currentUTCTime{
+        font-size: large;
+    }
+    #githubURL{
+        width: max-content;
+        padding: 10px;
+        font-size: 20px;
+        border-radius: 25px;
+    }   
+}
